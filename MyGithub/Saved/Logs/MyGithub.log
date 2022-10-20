@@ -722,3 +722,80 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2022.10.20-10.42.16:939][  0]LogContentStreaming: Texture pool size now 1000 MB
 [2022.10.20-10.42.16:979][  0]LogSlate: Took 0.000065 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
 [2022.10.20-10.44.10:908][331]LogDerivedDataCache: C:/Users/30202106-032/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:04.773 and deleted 0 file(s) with total size 0 MiB.
+[2022.10.20-10.50.14:663][573]LogSlate: Took 0.006573 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2022.10.20-10.50.21:863][974]LogContentBrowser: Deferred new asset file creation: NewWorld
+[2022.10.20-10.50.21:870][974]LogContentBrowser: Creating deferred item: NewWorld
+[2022.10.20-10.50.21:876][974]LogSlate: Took 0.005521 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.10.20-10.50.21:920][976]LogContentBrowser: Renaming the item being created (Deferred Item: NewWorld).
+[2022.10.20-10.50.23:767][ 71]LogContentBrowser: Attempting asset rename: NewWorld -> NewWorld
+[2022.10.20-10.50.23:769][ 71]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.20-10.50.23:770][ 71]LogContentBrowser: End creating deferred item NewWorld
+[2022.10.20-10.50.25:962][196]LogObjectTools: Deleting 1 worlds: /Game/NewWorld.NewWorld
+[2022.10.20-10.50.25:962][196]LogObjectTools: Currently 2 active worlds: /Temp/Untitled_1.Untitled_1, /Engine/Transient.World_0
+[2022.10.20-10.50.25:971][196]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2022.10.20-10.50.26:982][196]LogSlate: Window 'Delete Assets' being destroyed
+[2022.10.20-10.50.26:988][196]LogWorld: UWorld::CleanupWorld for NewWorld, bSessionEnded=true, bCleanupResources=true
+[2022.10.20-10.50.26:988][196]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.20-10.50.26:990][196]LogWorld: Warning: UWorld::CleanupWorld called twice or called without InitWorld called first.
+[2022.10.20-10.50.26:990][196]LogWorld: UWorld::CleanupWorld for NewWorld, bSessionEnded=true, bCleanupResources=true
+[2022.10.20-10.50.26:990][196]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.20-10.50.26:997][196]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2022.10.20-10.50.27:004][196]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2022.10.20-10.50.27:011][196]LogUObjectHash: Compacting FUObjectHashTables data took   0.19ms
+[2022.10.20-10.50.34:181][328]LogSlate: Window 'New Level' being destroyed
+[2022.10.20-10.50.36:549][427]LogContentBrowser: Deferred new asset file creation: NewWorld
+[2022.10.20-10.50.36:554][427]LogContentBrowser: Creating deferred item: NewWorld
+[2022.10.20-10.50.36:596][429]LogContentBrowser: Renaming the item being created (Deferred Item: NewWorld).
+[2022.10.20-10.50.36:950][445]LogContentBrowser: Attempting asset rename: NewWorld -> NewWorld
+[2022.10.20-10.50.36:950][445]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.20-10.50.36:969][445]LogContentBrowser: End creating deferred item NewWorld
+[2022.10.20-10.50.37:416][469]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2022.10.20-10.50.39:288][469]LogSlate: Window 'Save Content' being destroyed
+[2022.10.20-10.50.39:411][469]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewWorld" FILE="../../../../../../Projects/GroupStudy/MyGithub/Content/NewWorld.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.10.20-10.50.39:417][469]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2022.10.20-10.50.39:422][469]LogPackageLocalizationCache: Processed 30 localized package path(s) for 1 prioritized culture(s) in 0.003953 seconds
+[2022.10.20-10.50.39:425][469]LogSavePackage: Moving output files for package: /Game/NewWorld
+[2022.10.20-10.50.39:425][469]LogSavePackage: Moving '../../../../../../Projects/GroupStudy/MyGithub/Saved/NewWorldCA283B8145E982C2016A2F8D3E41CCD5.tmp' to '../../../../../../Projects/GroupStudy/MyGithub/Content/NewWorld.umap'
+[2022.10.20-10.50.39:430][469]LogFileHelpers: Saving map 'NewWorld' took 0.020
+[2022.10.20-10.50.39:438][469]LogAssetEditorSubsystem: Opening Asset editor for World /Game/NewWorld.NewWorld
+[2022.10.20-10.50.39:438][469]Cmd: MAP LOAD FILE="../../../../../../Projects/GroupStudy/MyGithub/Content/NewWorld.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.10.20-10.50.39:438][469]LightingResults: New page: Lighting Build
+[2022.10.20-10.50.39:438][469]LoadErrors: New page: Loading map: NewWorld.umap
+[2022.10.20-10.50.39:466][469]LogWorld: UWorld::CleanupWorld for Untitled_1, bSessionEnded=true, bCleanupResources=true
+[2022.10.20-10.50.39:466][469]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.20-10.50.39:467][469]MapCheck: New page: Map Check
+[2022.10.20-10.50.39:467][469]LightingResults: New page: Lighting Build
+[2022.10.20-10.50.39:472][469]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.10.20-10.50.39:485][469]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2022.10.20-10.50.39:489][469]LogWorld: UWorld::CleanupWorld for NewWorld, bSessionEnded=true, bCleanupResources=true
+[2022.10.20-10.50.39:489][469]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.20-10.50.39:495][469]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2022.10.20-10.50.39:501][469]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2022.10.20-10.50.39:502][469]LogAudio: Display: Audio Device (ID: 1) registered with world 'NewWorld'.
+[2022.10.20-10.50.39:502][469]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.10.20-10.50.39:503][469]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.20-10.50.39:503][469]LogAIModule: Creating AISystem for world NewWorld
+[2022.10.20-10.50.39:514][469]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.10.20-10.50.39:520][469]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2022.10.20-10.50.39:527][469]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.10.20-10.50.39:528][469]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.117ms to complete.
+[2022.10.20-10.50.39:528][469]LogFileHelpers: Loading map 'NewWorld' took 0.090
+[2022.10.20-10.50.39:532][469]AssetCheck: New page: Asset Save: NewWorld
+[2022.10.20-10.50.39:532][469]LogContentValidation: Display: Validating World /Game/NewWorld.NewWorld
+[2022.10.20-10.50.43:704][712]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewWorld" FILE="../../../../../../Projects/GroupStudy/MyGithub/Content/NewWorld.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.10.20-10.50.43:710][712]LogUObjectHash: Compacting FUObjectHashTables data took   0.19ms
+[2022.10.20-10.50.43:712][712]LogSavePackage: Moving output files for package: /Game/NewWorld
+[2022.10.20-10.50.43:713][712]LogSavePackage: Moving '../../../../../../Projects/GroupStudy/MyGithub/Saved/NewWorld4B9FB5D7443EF4E726F83785CD1979E7.tmp' to '../../../../../../Projects/GroupStudy/MyGithub/Content/NewWorld.umap'
+[2022.10.20-10.50.43:730][712]AssetCheck: New page: Asset Save: NewWorld
+[2022.10.20-10.50.43:731][712]LogContentValidation: Display: Validating World /Game/NewWorld.NewWorld
+[2022.10.20-10.50.44:961][786]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2022.10.20-10.50.45:911][843]LogUObjectHash: Compacting FUObjectHashTables data took   0.19ms
+[2022.10.20-10.51.05:022][984]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewWorld" FILE="../../../../../../Projects/GroupStudy/MyGithub/Content/NewWorld.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.10.20-10.51.05:027][984]LogUObjectHash: Compacting FUObjectHashTables data took   0.19ms
+[2022.10.20-10.51.05:029][984]LogSavePackage: Moving output files for package: /Game/NewWorld
+[2022.10.20-10.51.05:029][984]LogSavePackage: Moving '../../../../../../Projects/GroupStudy/MyGithub/Saved/NewWorldF33563B94710FC26EDCC9FAA99655810.tmp' to '../../../../../../Projects/GroupStudy/MyGithub/Content/NewWorld.umap'
+[2022.10.20-10.51.05:043][984]AssetCheck: New page: Asset Save: NewWorld
+[2022.10.20-10.51.05:043][984]LogContentValidation: Display: Validating World /Game/NewWorld.NewWorld
+[2022.10.20-10.51.07:486][130]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2022.10.20-10.51.09:453][248]LogUObjectHash: Compacting FUObjectHashTables data took   0.19ms
+[2022.10.20-10.51.10:898][334]LogUObjectHash: Compacting FUObjectHashTables data took   0.18ms
